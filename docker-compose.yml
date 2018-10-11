@@ -1,4 +1,4 @@
-version: '3.7'
+version: '2.2'
 services:
   elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch:6.4.2
@@ -22,8 +22,8 @@ services:
   redis:
     image: redis
     container_name: cache
-    expose:
-    - 6379
+    ports:
+      - 6379:6739
 
 volumes:
   esdata1:
