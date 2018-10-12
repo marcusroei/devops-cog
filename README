@@ -1,4 +1,13 @@
 
+Ubuntu 16.4
+
+1. copy the startup.sh file to /tmp on the remote machine.
+2. chmod +x on /tmp/startup.sh
+3. run the file: cd tmp && ./startup.sh
+
+
+On-premise:
+
 Prerequisites:
 
 1. Docker must be installed on the offline machine.
