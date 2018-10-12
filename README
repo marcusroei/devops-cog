@@ -1,0 +1,12 @@
+
+Prerequisites:
+
+1. Docker must be installed on the offline machine.
+
+
+On premise install:
+
+1. Run the onpremise_build.sh script on a machine which has internet connection.
+2. Copy the two generated tar files to the machine which has no access to the internet.
+3. Run the onpremise_load.sh script (The files should reside in the same folder as the script)
+4. Run docker-compose up
